@@ -3,9 +3,6 @@ description: File a bug report
 labels: ["bug"]
 assignees: []
 body:
-  - type: markdown
-    attributes: 
-      value: Create a bug report here
   - type: textarea
     id: description
     attributes:
@@ -14,3 +11,36 @@ body:
       placeholder: Add your description here
     validations:
       required: true
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Steps to Reproduce
+      description: How do you recreate the bug
+      placeholder: Add the reproduction steps here
+    validations:
+      required: true
+  - type: input
+    id: video-link
+    attributes:
+      label: Video of the bug
+      description: Upload a video of the bug (If possible)
+      placeholder: Add the link to the video of the bug
+    validations:
+      required: false
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System Information
+      description: Enter your system information (If possible)
+      placeholder: Enter any valid system information
+    validations:
+      required: false
+  - type: textarea
+    id: extra-info
+    attributes:
+      label: Extra Info
+      description: Extra Info
+      placeholder: Enter any extra info
+    validations:
+      required: false
+  
