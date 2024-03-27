@@ -2,7 +2,7 @@ name: Feature Request
 description: Request a new feature
 labels: [feature]
 body:
- - type: markdown
+  - type: markdown
     attributes:
       value: |
         Thank you for your interest.  
