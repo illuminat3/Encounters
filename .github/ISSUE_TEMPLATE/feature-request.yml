@@ -2,12 +2,14 @@ name: Feature Request
 description: Request a new feature
 labels: [feature]
 body:
-  - type: markdown
+ - type: markdown
     attributes:
-      value: | 
-      Thank you for your interest.  
-      Before submitting a feature request check the other open feature requests to see if a similar feature already exists.  
-      If it does please reference it in your description.
+      value: |
+        Thank you for your interest.  
+        
+         Before submitting a feature request check the other open feature requests to see if a similar feature already exists.  
+        
+        If it does please reference it in your description.
   - type: textarea
     id: description
     attributes:
