@@ -7,7 +7,7 @@ body:
       value: |
         Thank you for your interest.  
         
-         Before submitting a feature request check the other open feature requests to see if a similar feature already exists.  
+         Before submitting a feature request check the other [open feature requests](https://github.com/illuminat3/Encounters/issues?q=is%3Aopen+label%3Afeature) to see if a similar feature already exists.  
         
         If it does please reference it in your description.
   - type: textarea
