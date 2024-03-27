@@ -1,3 +1,25 @@
 name: Feature Request
 description: Request a new feature
 labels: [feature]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for your interest.  
+      Before submitting a feature request check the other open feature requests to see if a similar feature already exists.  
+      If it does please reference it in your description.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Description of your featurel, be as detailed as possible!
+      placeholder: Add your description here
+    validations:
+      required: true
+  - type: textarea
+    id: extra-info
+    attributes:
+      label: Extra Info
+      description: Extra Info
+      placeholder: Enter any extra info
+    validations:
+      required: false
