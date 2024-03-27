@@ -4,6 +4,8 @@ An SCP based open source game for experimenting with unity
 
 ## Install
 
+Coming soon...
+
 ## Community
 
 Please use github issues.  
