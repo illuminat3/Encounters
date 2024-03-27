@@ -4,7 +4,8 @@ labels: [feature]
 body:
   - type: markdown
     attributes:
-      value: Thank you for your interest.  
+      value: | 
+      Thank you for your interest.  
       Before submitting a feature request check the other open feature requests to see if a similar feature already exists.  
       If it does please reference it in your description.
   - type: textarea
